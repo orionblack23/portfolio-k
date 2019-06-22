@@ -1,0 +1,223 @@
+<!-- WRAPPER ALL -->
+<div class="arlo_tm_wrapper_all">
+
+	{{>mobileMenu}}
+	
+    <!-- CONTENT -->
+	<div class="arlo_tm_content">
+		
+		{{>sideBar}}
+		
+		<!-- RIGHTPART -->
+		<div class="arlo_tm_rightpart">
+			<div class="rightpart_inner">
+				<div class="arlo_tm_section" id="home">
+					<div class="arlo_tm_hero_header_wrap">
+						<div class="arlo_tm_universal_box_wrap">
+							<div class="bg_wrap">
+								<div class="overlay_image hero jarallax" data-speed="0.1"></div>
+								{{#with section1}}
+									<div class="overlay_color hero" style="background-image: url('{{profileBackground}}')"></div>
+								{{/with}}
+							</div>
+							<div class="content hero">
+								<div class="inner_content">
+									<div class="image_wrap">
+										{{#with section1}}
+											<img src="{{imgAvatar}}" alt="" />
+										{{/with}}
+									</div>
+									<div class="name_holder">
+										{{#with section1}}
+											<h3>{{firstName}} <span>{{lastName}}</span></h3>
+										{{/with}}
+										
+									</div>
+									<div class="text_typing">
+										<p>I'm a <span class="arlo_tm_animation_text_word"></span></p>
+									</div>
+								</div>
+							</div>
+							<div class="arlo_tm_arrow_wrap bounce anchor">
+								<a href="#about"><i class="xcon-angle-double-down"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- ABOUT -->
+				<div class="arlo_tm_section relative" id="about">
+					<div class="arlo_tm_about_wrapper_all">
+						<div class="container">
+							<div class="arlo_tm_title_holder">
+								{{#with section2}}
+									<h3>{{header}}</h3>
+									<span>{{subHeader}}</span>
+								{{/with}}
+							</div>
+							<div class="arlo_tm_about_wrap">
+								<div class="author_wrap">
+									<div class="leftbox">
+										<div class="about_image_wrap parallax" data-relative-input="true">
+											<div class="image layer" data-depth="0.1">
+												<img src="images/about/550x640.jpg" alt="" />
+												{{#with section2}}
+													<div class="inner" data-img-url="{{imgAvatar2}}"></div>
+												{{/with}}
+											</div>
+											<div class="border layer" data-depth="0.2">
+												<img src="images/about/550x640.jpg" alt="" />
+												<div class="inner"></div>
+											</div>
+										</div>
+
+									</div>
+									<div class="rightbox">
+										<div class="arlo_tm_mini_title_holder">
+											{{#with section2}}
+												<h4> {{greeting}} and <span class="arlo_tm_animation_text_word"></span></h4>
+											{{/with}}
+										</div>
+										<div class="definition">
+											{{#with section2}}
+												<p>{{{bio}}}</p>
+											{{/with}}
+										</div>
+										<div class="about_short_contact_wrap">
+											<ul>
+												{{#with section2}}
+												<li>
+													<span><label>Birthday:</label>{{birthday}}</span>
+												</li>
+												<li>
+													<span><label>Age:</label>{{age}}</span>
+												</li>
+												<li>
+													<span><label>City:</label> {{city}}</span>
+												</li>
+												<li>
+													<span><label>Interests:</label> {{interests}}</span>
+												</li>
+												<li>
+													<span><label>Study:</label> {{study}}</span>
+												</li>
+												<li>
+													<span><label>Degree:</label> {{degree}}</span>
+												</li>	
+												<li>
+													<span><label>Mail:</label> <a href="mailto:example@gmail.com">{{mail}}&#64;gmail.com</a></span>
+												</li>
+												{{/with}}
+											</ul>
+										</div>
+										<div class="buttons_wrap">
+											<ul>
+												<li>
+													{{#with section2}}
+														<a href="{{downloadCv}}"><span>Download CV</span></a>
+													{{/with}}
+												</li>
+												<li class="anchor">
+													<a href="#contact"><span>Send Message</span></a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /ABOUT -->
+				
+				<!-- SKILLS -->
+				<div class="arlo_tm_section">
+					<div class="arlo_tm_skills_wrap">
+						<div class="container">
+							<div class="inner_wrap">
+								<div class="leftbox">
+									{{#with section3}}
+										<div class="arlo_tm_mini_title_holder">
+											<h4>{{header}}</h4>
+										</div>
+										<p>{{description}}</p>
+									{{/with}}
+								</div>
+								<div class="rightbox">
+									<div class="progress_bar_wrap_total">
+										<div class="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
+											<div class="arlo_tm_progress" data-value="95" data-color="#000">
+												<span><span class="label">C - <span class="experience">2 years of experience</span></span><span class="number">95%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="85" data-color="#000">
+												<span><span class="label">C++ - <span class="experience">1 years of experience</span></span><span class="number">85%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="75" data-color="#000">
+												<span><span class="label">C# - <span class="experience">1 years of experience</span></span><span class="number">75%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="85" data-color="#000">
+												<span><span class="label">Python - <span class="experience">2 years of experience</span></span><span class="number">85%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="70" data-color="#000">
+												<span><span class="label">Ruby - <span class="experience">1 years of experience</span></span><span class="number">70%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="70" data-color="#000">
+												<span><span class="label">Java - <span class="experience">1 years of experience</span></span><span class="number">70%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="90" data-color="#000">
+												<span><span class="label">HTML - <span class="experience">3 years of experience</span></span><span class="number">90%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="90" data-color="#000">
+												<span><span class="label">CSS - <span class="experience">3 years of experience</span></span><span class="number">90%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="85" data-color="#000">
+												<span><span class="label">Javascript - <span class="experience">2 years of experience</span></span><span class="number">85%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="75" data-color="#000">
+												<span><span class="label">PHP - <span class="experience">1 years of experience</span></span><span class="number">75%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+											<div class="arlo_tm_progress" data-value="80" data-color="#000">
+												<span><span class="label">Bootstrap - <span class="experience">2 years of experience</span></span><span class="number">80%</span></span>
+												<div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /SKILLS -->
+
+				<div class="arlo_tm_section relative" id="portfolio">
+					<div class="arlo_tm_portfolio_wrapper_all">
+
+				{{>footer}}
+				
+			</div>
+		</div>
+		<!-- /RIGHTPART -->
+		
+		<a class="arlo_tm_totop" href="#"></a> 
+		
+	</div>
+</div>
+<!-- / WRAPPER ALL -->
+	
+<!-- SCRIPTS -->
+<script src="/javascripts/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="/javascripts/plugins.js"></script>
+<script src="/javascripts/init.js"></script>
+<!-- /SCRIPTS -->
+
