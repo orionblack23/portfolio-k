@@ -81,7 +81,7 @@ router.post('/', (req, res, next) => {
 // send mail with defined transport object
   let mailOption = {
   from: '"Nodemailer address" <betglamx@gmail.com>', // sender address
-  to: "info.betglamx@gmail.com", // list of receivers
+  to: "lindanmoyo@gmail.com", // list of receivers
   subject: "Node contact request", // Subject line
   text: "Hello world?", // plain text body
   html: output // html body
